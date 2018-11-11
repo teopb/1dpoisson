@@ -20,7 +20,6 @@ def product_integrator(x1, x2, f, steps):
     return result
 
 # u(0) = alpha, u(1) = beta, f(x) = function, steps
-# TODO should I change the step size to be equal in both integrals?
 def u_of_x(x, f, alpha, beta, steps):
     steps1 = int(round(x*steps))
     steps2 = int(round((1-x)*steps))
